@@ -13,7 +13,7 @@
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
       <div class="feature col div-choice">
-            <div class="scenario-description">Exercise 2.3: Denormalizing</div>
+            <div class="scenario-description">Exercise 3.1: User Defined Types (UDTs)</div>
             <ul>
               <li><span class="scenario-description-attribute">Difficulty</span>: Easy</li>
               <li><span class="scenario-description-attribute">Time</span>: 10 minutes</li>
