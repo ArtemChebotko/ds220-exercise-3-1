@@ -40,15 +40,14 @@ USE killrvideo;
 
 ✅ Create the original table `videos`:
 ```
-    CREATE TABLE videos (
-       video_id TIMEUUID,
-       added_date TIMESTAMP,
-       description TEXT,
-       tags SET<TEXT>,
-       title TEXT,
-       user_id UUID,
-       PRIMARY KEY (video_id)
-     );
+CREATE TABLE videos (
+  video_id TIMEUUID,
+  added_date TIMESTAMP,
+  description TEXT,
+  title TEXT,
+  user_id UUID,
+  PRIMARY KEY (video_id)
+);
 ```
 
 

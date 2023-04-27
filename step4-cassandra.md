@@ -26,7 +26,14 @@
 
 ✅ Load the data from the `videos.csv` file using the `COPY` command:
 ```
-COPY videos FROM 'assets/videos.csv' WITH HEADER=true;
+COPY videos(video_id, added_date, description, tags, title, user_id) 
+FROM 'assets/videos.csv' WITH HEADER=true;
+```
+
+✅ Load the data from the `videos_encoding.csv` file using the `COPY` command:
+```
+COPY videos(video_id, encoding) 
+FROM 'assets/videos_encoding.csv' WITH HEADER=true;
 ```
 
 ✅ Run a query to retrieve the first 10 rows of the `videos` table:
